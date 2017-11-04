@@ -27,6 +27,8 @@ bridge_x=cutout_x + eps;
 bridge_y = 1*mm;
 bridge_z = 0.6*in;
 bridge_lift = 0.75*in;
+bridge_secondstory_narrow = 0.2*in;
+bridge_secondstory_th = 0.7*mm;
 
 rotate([90,0,0])
 translate([0,can_rad+yogurt_lid_rim_inset,-bridge_lift])
@@ -61,4 +63,7 @@ union(){
     }
     translate([-bridge_x/2, -can_rad-yogurt_lid_rim_inset, bridge_lift])
     cube([bridge_x,bridge_y,bridge_z]);
+    translate([-bridge_x/2, -can_rad-yogurt_lid_rim_inset, bridge_lift+bridge_secondstory_narrow])
+    cube([bridge_x,bridge_y+bridge_secondstory_th,bridge_z-2*bridge_secondstory_narrow]);
+
 }
