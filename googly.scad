@@ -11,9 +11,10 @@ yogurt_lid_rim_inset = 4.3*mm;
 depth = 0.5*in;
 eps=0.01*mm;
 
-magnet_x = 10*mm; // made-up number
-magnet_y = 5*mm; // made-up number
-magnet_z = 20*mm; //made-up number
+slop = 0.3*mm;
+magnet_x = 10*mm+slop; // made-up number
+magnet_y = 5*mm+slop; // made-up number
+magnet_z = 20*mm+slop; //made-up number
 magnet_fudge = 0.5*mm;
 magnet_z_lower=1*mm;
 
