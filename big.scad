@@ -6,7 +6,7 @@ zsteps = 100;
 zmax = 10;
 
 
-function r_component(theta,zc) = 4 + 0.2*cos(7*theta) * cos(180*zc) + sin(zc / zmax * 180);
+function r_component(theta,zc) = 4 + 0.15*cos(7*theta) * cos(180*zc) + 1.5*sin(230 + zc / zmax * 270);
 function xc(theta, zc) = r_component(theta,zc) * cos(theta);
 function yc(theta, zc) = r_component(theta,zc) * sin(theta);
 
