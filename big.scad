@@ -47,8 +47,8 @@ indices_2 = [
 function cat(L1, L2) = [for (i=[0:len(L1)+len(L2)-1]) 
                         i < len(L1)? L1[i] : L2[i-len(L1)]] ;
 
-top_face = [for(xy_index = [0:steps-1]) point_index(xy_index, zsteps-1)];
-bottom_face = [for(xy_index = [0:steps-1]) point_index(steps-xy_index-1, 0)];
+top_face = [for(xy_index = [0:steps-1]) point_index(xy_index, 0)];
+bottom_face = [for(xy_index = [0:steps-1]) point_index(steps-xy_index-1, zsteps-1)];
  
 faces = cat(cat(cat([top_face], indices_1), indices_2), [bottom_face]);
 
