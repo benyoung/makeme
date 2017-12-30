@@ -3,22 +3,29 @@ cm=10*mm;
 in=25.4*mm;
 
 slop=0.1;
-magnet_rad = 1.5*cm/2 + slop; // made-up number
-magnet_th=5*mm+slop;        // made-up number
-hole_rad = 1*mm;       // made-up number
+bar_len = 3*in;
 
 wall = 2*mm;
+
+magnet_rad = 2.2*cm/2 + slop; 
+magnet_th=7*mm+slop;        
+hole_rad = 1.2*mm+slop;       
+
+
 
 eyestalk_len = 2*in;
 eyestalk_rad = 4*mm;
 
 eyestalk_ang = 20;
 
-eyeball_rad = 14*mm;
-googly_rad = 8*mm; // made-up number
-hole_depth = 3*mm;
+eyeball_rad = 10*mm;
+googly_rad = 15.5*mm/2; 
+hole_depth = 5*mm;
 
 eps=0.01;
+
+cutout=4*mm; // made_up
+cutout_width=44*mm;
 
 module eyestalk() {
     translate([0,0,eyeball_rad/sin(eyestalk_ang) - eyestalk_rad /tan(eyestalk_ang)+ eyestalk_len])
@@ -41,23 +48,26 @@ module eyestalk() {
 module base() {
     difference(){
         union() {
-            translate([0,0,-eps])
-            cylinder(r=magnet_rad+wall, h=magnet_th+wall+eps);
-            translate([0,0,magnet_th+wall])
-            scale([1,1,0.7])
-            sphere(magnet_rad+wall);
+            translate([0,0,(magnet_th+wall-cutout)/2])
+            cube([2*magnet_rad+2*wall,bar_len,magnet_th+wall+cutout],center=true);
+                
+            translate([0,bar_len/2,(magnet_th+wall-cutout)/2])
+            cylinder(r=magnet_rad+wall,h=magnet_th+wall+cutout,center=true);
 
-            translate([0,-magnet_th,magnet_th])
-            rotate([20,0,0])
+            translate([0,-bar_len/2,(magnet_th+wall-cutout)/2])
+            cylinder(r=magnet_rad+wall,h=magnet_th+wall+cutout,center=true);
+
+
+            translate([0,bar_len/2,0])
             eyestalk();
-            translate([0,magnet_th,magnet_th])
-            rotate([-20,0,0])
+            translate([0,-bar_len/2,0])
             eyestalk();
 
         }
         union() {
             mirror([0,0,-1])
-            cylinder(r=2*magnet_rad,h=2*magnet_rad);
+            translate([-2*magnet_rad,-cutout_width/2,0])
+            cube([4*magnet_rad,cutout_width,2*cutout]);
             translate([0,0,-2*eps])
             cylinder(r=magnet_rad,h=magnet_th);
             
