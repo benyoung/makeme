@@ -88,10 +88,33 @@ module plate(which_bit = "top", m, n) {
     }
 }
 
+tab_rad = mill_diameter + sqrt(2)* 1/16*in;
+
+module antitabs(m,n) {
+    for(row=[0:m]) {
+            for(col=[0:n]) {
+                translation_x = (col-n/2)*mill_grid_size;
+                translation_y = (row-m/2)*mill_grid_size;
+                translate([translation_x, translation_y])
+                circle(tab_rad);
+            }
+       }    
+}
+
+module tabs(m,n,slop=0) {
+    difference(){
+        plate("outline",m,n);
+        antitabs(m,n);
+           
+    }
+}
+
 //plate("none",4,9);    
 //plate("bottom",4,9);
 //plate("top",4,9);
-plate("outline",4,9);
+//plate("outline",4,9);
+//tabs(4,9);
+antitabs(4,9,1/32*in);
 
 // waste board:
 // cut holes into the waste board in the position of the carvey mount points
@@ -102,8 +125,8 @@ plate("outline",4,9);
 // 1) cut the bottom plate, 1/8 in deep
 // 2) put dowels in the pin holes and flip over
 // 3) cut the top plate 1/8 in deep
-// 4) cut the outline plate, not quite 1/2 in deep
-// **** 5) cut a yet-to-be-designed tab plate, 1/2 in deep
+// 4) cut the antitabs plate, not quite 1/2 in deep
+// 5) cut the tab plate, 1/2 in deep
 
 
 
