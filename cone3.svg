@@ -15,7 +15,7 @@
    width="262pt"
    id="svg448"
    sodipodi:docname="cone3.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+   inkscape:version="0.48.5 r10040">
   <metadata
      id="metadata452">
     <rdf:RDF>
@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -37,16 +37,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1029"
+     inkscape:window-width="1366"
+     inkscape:window-height="718"
      id="namedview450"
      showgrid="false"
      inkscape:snap-intersection-paths="true"
      inkscape:zoom="1.0734554"
      inkscape:cx="-284.42883"
-     inkscape:cy="272.64565"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:cy="198.11996"
+     inkscape:window-x="1680"
+     inkscape:window-y="282"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg448"
      units="in"
@@ -94,7 +94,7 @@
      d="m -623.60742,198.91602 a 1.8751875,1.8751875 0 0 0 -1.85547,1.69726 c 0,0 -0.26565,2.41673 -0.77734,5.38672 -0.5117,2.96999 -1.31691,6.52932 -2.16211,8.41797 -1.99627,4.46078 -4.11285,8.93871 -6.30664,13.40625 -2.19328,4.46648 -4.46645,8.91574 -6.81836,13.3125 -1.00409,1.87709 -3.37962,4.80285 -5.46094,7.125 -2.08133,2.32215 -3.86914,4.10156 -3.86914,4.10156 a 1.8751875,1.8751875 0 1 0 2.64258,2.66016 c 0,0 1.86015,-1.84859 4.01953,-4.25782 2.15937,-2.40922 4.61566,-5.31888 5.97461,-7.85937 2.37418,-4.4384 4.66806,-8.92743 6.8789,-13.42969 2.21033,-4.50122 4.34376,-9.01896 6.36133,-13.52734 1.16172,-2.59593 1.90287,-6.22071 2.43555,-9.3125 0.53268,-3.09179 0.81054,-5.61328 0.81054,-5.61328 a 1.8751875,1.8751875 0 0 0 -1.87304,-2.10742 z"
      id="path840" />
   <path
-     style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.75000000000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="path897"
      sodipodi:type="arc"
      sodipodi:cx="-285.36249"
