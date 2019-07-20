@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with matplotlib (http://matplotlib.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="1614.4288"
+   version="1.1"
+   viewBox="0 0 766.86082 1291.5431"
+   width="958.57599"
+   id="svg2"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="orangepeel.svg">
+  <metadata
+     id="metadata31">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1680"
+     inkscape:window-height="1024"
+     id="namedview29"
+     showgrid="false"
+     units="in"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.1386767"
+     inkscape:cx="464.39844"
+     inkscape:cy="1437.0675"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     inkscape:snap-center="true" />
+  <defs
+     id="defs4"
+     style="stroke-linecap:butt;stroke-linejoin:round">
+    <style
+       type="text/css"
+       id="style6">
+*{stroke-linecap:butt;stroke-linejoin:round;}
+  </style>
+  </defs>
+  <g
+     id="matplotlib.axis_1"
+     style="stroke-linecap:butt;stroke-linejoin:round"
+     transform="translate(208.08192,982.36767)" />
+  <g
+     id="matplotlib.axis_2"
+     style="stroke-linecap:butt;stroke-linejoin:round"
+     transform="translate(208.08192,982.36767)" />
+  <path
+     style="fill:none;stroke:#0000ff;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     clip-path="url(#pe093200391)"
+     d="m 151.4375,93.9375 c -13.44799,0.305678 -26.9087,6.94281 -32.625,19.53125 -3.3206,7.27444 -3.02964,16.60443 2.40625,22.8125 l 0.3125,0.375 c 4.18021,5.36286 14.95933,6.40474 17.1875,-1.25 0.0275,-7.26783 8.30413,-10.87289 14.46875,-8.53125 13.65661,4.55337 19.28682,20.2225 19.59375,33.46875 0.50288,26.44559 -12.98249,50.2987 -24.875,73.03125 -0.24562,0.45725 -0.5043,0.91674 -0.75,1.375 l 15.78125,7.9375 15.78125,7.9375 c 2.34508,-4.40919 4.66365,-8.82894 6.875,-13.25 14.23823,-27.06241 25.98133,-57.76908 21,-88.84375 -3.41548,-23.19082 -18.6528,-46.07845 -42,-52.75 -4.19326,-1.318627 -8.67359,-1.945643 -13.15625,-1.84375 z"
+     transform="matrix(8.0000005,0,0,8.0000005,-914.18205,-732.40943)"
+     id="path19"
+     inkscape:connector-curvature="0" />
+  <defs
+     id="defs24">
+    <clipPath
+       id="pe093200391">
+      <rect
+         height="318.95999"
+         width="371.88034"
+         x="10.7"
+         y="10.7"
+         id="rect27"
+         style="stroke-linecap:butt;stroke-linejoin:round" />
+    </clipPath>
+  </defs>
+  <path
+     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+     d="M 296.81803,1.090614 C 183.58898,3.66435 68.962014,59.615722 19.818011,167.84063 l 0.2496,0 c -29.0975209,63.74392 -27.1868809,145.35809 21.750002,201.50001 0.08,0.0896 0.1712,0.16 0.2496,0.2496 l 1.75,2.25 c 0.1464,0.188 0.352,0.3128 0.5,0.5 21.024081,26.55888 55.176643,40.748 88.500007,40.5 33.558,-0.2496 68.8492,-18.692 80,-57 a 18.001801,18.001801 0 0 0 0.7496,-5 c 0.084,-22.24992 11.92272,-37.35448 30,-47.00001 18.07728,-9.64552 41.95784,-11.82816 61.25001,-4.5 a 18.001801,18.001801 0 0 0 0.7496,0.2496 c 49.4532,16.48865 84.59824,52.92489 108.25,99.00001 23.61384,46.0012 35.04625,101.46449 36.25001,152.00001 0.002,0.0816 -0.002,0.1688 0,0.2496 3.80976,205.03401 -101.49617,393.1869 -196.75002,575.25005 -0.048,0.098 -0.1984,0.1512 -0.2496,0.2496 -1.81208,3.3643 -3.7224,6.9683 -5.75,10.75 a 18.001801,18.001801 0 0 0 7.75,24.5 l 126.25001,63.5 126.25001,63.5 a 18.001801,18.001801 0 0 0 24,-7.5 c 18.70504,-35.1689 37.02976,-70.5888 54.75,-106 l 0.2496,0 C 701.14853,957.30444 797.05798,708.04538 756.31645,453.33904 c -0.008,-0.08 0.008,-0.1696 0,-0.2496 C 728.07373,261.87727 602.91852,72.804618 408.06643,16.839415 l 0,-0.25 c -0.1544,-0.0488 -0.3456,0.048 -0.5,0 C 372.21267,5.529078 334.46291,0.23369396 296.81643,1.089414 z"
+     id="path3774"
+     inkscape:connector-curvature="0" />
+  <path
+     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+     d="m 297.81803,37.090616 c 33.91168,-0.7708 67.64632,4.0618 99.25,14.000001 a 18.001801,18.001801 0 0 0 0.5,0 C 575.8778,102.04334 694.36989,278.75983 720.81805,458.34064 a 18.001801,18.001801 0 0 0 0,0.2496 c 38.85752,242.4021 -53.05768,484.35691 -166.25001,699.50006 a 18.001801,18.001801 0 0 0 0,0.5 c -15.00784,30.0045 -31.09136,59.9471 -47,90 l -110.25001,-55.5 -109.75,-55.25 C 381.92587,957.75916 490.1742,766.02602 486.06804,550.09025 a 18.001801,18.001801 0 0 0 0,-0.2496 c -1.28296,-55.36888 -13.45384,-115.54937 -40.25,-167.75001 -26.68113,-51.97656 -68.60793,-96.18745 -128.00001,-116.25001 -0.2464,-0.0936 -0.5032,-0.1584 -0.7496,-0.2496 -29.83768,-11.07656 -63.31161,-8.00696 -90.50001,6.5 -26.06912,13.90976 -46.1688,40.34433 -48.25,73.75001 -6.67456,22.92992 -23.3748,30.83352 -45.75,31 -22.3752,0.1664 -47.793605,-11.01952 -60.250005,-27 a 18.001801,18.001801 0 0 0 -0.5,-0.5 l -2.500001,-3 a 18.001801,18.001801 0 0 0 -0.2496,-0.2496 C 31.260252,302.91207 28.583292,235.38655 52.568813,182.84143 a 18.001801,18.001801 0 0 0 0.2496,0 C 95.134816,89.650458 195.87922,39.407728 297.81803,37.090616 z"
+     id="path3764"
+     inkscape:connector-curvature="0" />
+</svg>
