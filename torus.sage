@@ -7,7 +7,7 @@ q=17
 main_rad=8
 minor_rad=2
 offset=2
-width=2
+width=2.5
 num_points=1000
 
 start = -0.055*(2*pi/q)
@@ -23,14 +23,15 @@ h=f(main_rad,minor_rad,-p*(t+0.5),q*t)
 blue_surface = g+u*g.derivative(t).normalized()
 green_surface = h+u*h.derivative(t).normalized()
 
-#G += parametric_plot3d(green_surface, (t,0,2*pi), (u,offset,offset+width), plot_points=(num_points,3), color="darkgreen")
+finalmodel = parametric_plot3d(blue_surface, (t,0,2*pi), (u,offset,offset+width), plot_points=(num_points,3), color="blue")
+finalmodel += parametric_plot3d(green_surface, (t,0,2*pi), (u,offset,offset+width), plot_points=(num_points,3), color="darkgreen")
 
 
 def plane_at_ang(theta):
     return parametric_plot3d( (u*cos(theta), u*sin(theta), v), (u,4,12), (v,-4,4), color="pink", alpha=0.5)
 
 
-G+=sum(plane_at_ang(i*pi/68) for i in range(5,45,4))
+#G+=sum(plane_at_ang(i*pi/68) for i in range(5,45,4))
 
 def zigzag(points):
     inc = float(2*pi/q/points)
@@ -120,5 +121,5 @@ def makepic(cuts, fzz):
     for c in apply_all_cuts_to_zigzag(cuts, fzz):
         G += line(c,color="black")
     G += line(midline(fzz))
-    G.save("torus.svg", aspect_ratio=1,axes=False)
+    G.save("torus.svg", aspect_ratio=1, ymin=-0.5, axes=False)
 
